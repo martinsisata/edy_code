@@ -1,0 +1,14 @@
+mysql> source
+ERROR: 
+Usage: \. <filename> | source <filename>
+mysql> source insert_cadastro
+ERROR: 
+Failed to open file '<filename> | source <filename>', error: 22
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'mysql> source
+ERROR: 
+Usage:' at line 1
+mysql> connect
+Connection id:    5
+Current database: dados
+
+mysql> quit
